@@ -1,5 +1,6 @@
 #!/usr/bin/perl -w
-print "enter the username: ";
+# changing the script for github
+print "enter the username: "; 
 $usr = <STDIN>;
 $COMMAND = "cleartool lsview -s | findstr $usr";
 @views = `$COMMAND`;
