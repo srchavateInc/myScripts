@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-# changing the script for github
+# changing the script for Sandeep Chavate
 print "enter the username: "; 
 $usr = <STDIN>;
 $COMMAND = "cleartool lsview -s | findstr $usr";
