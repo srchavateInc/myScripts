@@ -1,4 +1,5 @@
 #!/usr/bin/perl -w
+# adding some comments to learn GitHub
 print "enter the username: ";
 $usr = <STDIN>;
 $COMMAND = "cleartool lsview -s | findstr $usr";
